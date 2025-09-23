@@ -55,7 +55,7 @@ const App = () => {
             onClick={handleAdd}
             className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
           >
-            Add
+            Add Task
           </button>
         </div>
 
@@ -70,7 +70,7 @@ const App = () => {
                   onClick={() => handleToggle(index)}
                   className={`${
                     item.completed ? "line-through text-gray-500" : ""
-                  } cursor-pointer`}
+                  } cursor-pointer `} 
                 >
                   {item.text}
                 </span>
