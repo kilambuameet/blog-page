@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
-    <div className="container mx-auto md:p-8 p-4">
+    <div className="container mx-auto md:p-8 p-4 flex flex-col justify-center items-center text-center">
       <h1 className="text-xl font-semibold mb-4">This is Homepage...</h1>
 
       <p>
